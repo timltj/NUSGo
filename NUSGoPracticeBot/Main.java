@@ -8,7 +8,7 @@ public class Main {
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi(); // create new bot API 
 
         try {
-            telegramBotsApi.registerBot(new ZaurEduBot());
+            telegramBotsApi.registerBot(new NUSGoPracticeBot());
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
