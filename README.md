@@ -24,9 +24,9 @@ You can see code for those bots in the various project directories.
 
 ## Project Directories
 #### Prototype 1
-Official [Prototype 1](../Prototype 1) for Orbital project submission.
+Official [Prototype 1](/Prototype 1) for Orbital project submission.
 #### NUSGoBot
-Practice bot created by Tim for experimental development.
+[Practice bot](/NUSGoBot) created by Tim for experimental development.
 
 ## Telegram Bot API
 This project uses the Maven Telegram bot API, you can find more information through this [link](https://github.com/rubenlagus/TelegramBots).
