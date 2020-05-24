@@ -1,5 +1,5 @@
 # NUSGo
-NUSGo is a Telegram Bot which aims to make commuting and navigating within NUS a simpler process. Our bot provides students with a list of possible bus routes to choose from, just by entering their starting location and destination through a series of commands. 
+NUSGo is a Telegram Bot which aims to make commuting and navigating within NUS a simpler and faster process. Our bot provides students with a list of possible bus routes to choose from, by simply entering their starting location and destination through a series of commands. 
 
 ## User Stories
 1. As a commuter in NUS, I want to have a full navigational path from my current location to my desired
