@@ -74,4 +74,3 @@ public class NUSGoBot extends TelegramLongPollingBot {
         return "1160826295:AAHp8jFip_SsqY2DeBCXsHaBgmO4WxvxUz4";
     }
 }
-\
