@@ -24,7 +24,7 @@ You can see code for those bots in the various project directories.
 
 ## Project Directories
 #### Prototype 1
-Official [Prototype 1](/Prototype1) for Orbital project submission.
+Official [Prototype 1](/Prototype%201) for Orbital project submission.
 #### NUSGoBot
 [Practice bot](/NUSGoBot) created by Tim for experimental development.
 
