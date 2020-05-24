@@ -32,5 +32,5 @@ Practice bot created by Tim for experimental development.
 This project uses the Maven Telegram bot API, you can find more information through this [link](https://github.com/rubenlagus/TelegramBots).
 
 ## Powered by IntelliJ IDEA & Apache Maven
-(https://www.jetbrains.com/idea/)
-(http://maven.apache.org/)
+[IntelliJ IDEA](https://www.jetbrains.com/idea/)
+[Apache Maven](http://maven.apache.org/)
