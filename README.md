@@ -12,9 +12,12 @@ and the real time bus arrival timings from NUSNextBus app.
 
 ## Sample bots
 Open them and send them /help command to get some information about their capabilities:
+
 https://telegram.me/nusgobot (Prototype 1)
+
 https://telegram.me/NUSGo_Practice_Bot (Experimental bot)
-You can see code for those bots at TelegramBotsExample project.
+
+You can see code for those bots in the various project directories.
 
 ## Project Directories
 #### Prototype 1
