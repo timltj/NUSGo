@@ -16,6 +16,6 @@ Official prototype 1 for Orbital project submission.
 Practice bot created by Tim for experimental development.
 
 ## Telegram Bot API
-This project uses the Maven Telegram bot API, you can find more information through this [link] (https://github.com/rubenlagus/TelegramBots).
+This project uses the Maven Telegram bot API, you can find more information through this [link](https://github.com/rubenlagus/TelegramBots).
 
 ## Powered by Intellij
