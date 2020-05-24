@@ -33,4 +33,5 @@ This project uses the Maven Telegram bot API, you can find more information thro
 
 ## Powered by IntelliJ IDEA & Apache Maven
 [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+
 [Apache Maven](http://maven.apache.org/)
