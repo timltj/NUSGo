@@ -1,5 +1,5 @@
 # NUSGo
-Team members: Tan Eu Zin, Lim Tiang Jung Timothy
+Team Members: Tan Eu Zin, Lim Tiang Jung Timothy
 
 Project Level: Gemini
 
