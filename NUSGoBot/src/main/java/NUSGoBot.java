@@ -27,11 +27,14 @@ public class NUSGoBot extends TelegramLongPollingBot {
         SendMessage route_message = null;
         SendMessage restart_message = new SendMessage()
                 .setChatId(chat_id)
-                .setText("Please type in the /start command to re-enter a new query.");
+                .setText("Please type in the /restart command to re-enter a new query.");
+        SendMessage previous_menu_message = new SendMessage()
+                .setChatId(chat_id)
+                .setText("To reselect starting bus stop, type in the /back command to go back to the previous menu.");
 
         if (update.hasMessage() && update.getMessage().hasText()) { // CHECK USER INPUT
             String text_message = update.getMessage().getText();
-            if (text_message.equals("/start")) { // command - start NUSGoBot
+            if (text_message.equals("/start") || text_message.equals("/restart")) { // command - start NUSGoBot
                 selectButtonFlag = false;
                 startSentFlag = false;
                 restartFlag = false;
@@ -73,8 +76,26 @@ public class NUSGoBot extends TelegramLongPollingBot {
                                 "/pgp7 - PGP Hse No 7\n/pgp - PGPR\n/pgpt - Prince George's Park\n" +
                                 "/raffles - Raffles Hall\n/s17 - S17\n/uhall - UHall\n" +
                                 "/staffclub - University Health Centre\n/utown - University Town\n/lt13opp - Ventus (Opp LT13)\n/yih - YIH\n");
+            } else if (text_message.equals("/back")) { // USER GOES BACK TO RESELECT
+                startSentFlag = false;
+                selectButtonFlag = true;
+                message = new SendMessage()
+                        .setChatId(chat_id)
+                        .setText("Please select your starting bus stop from the list below OR by typing " +
+                                "'/' to reveal the command menu: \n\n" +
+                                "/as7 - AS7\n/biz2 - BIZ 2\n/bgmrt - Botanic Gardens MRT\n" +
+                                "/bukittimahbtc2 - BTC - Oei Tiong Ham Building\n/cenlib - Central Library\n/cgh - College Green Hostel\n" +
+                                "/com2 - COM2 (CP13)\n/comcen - Computer Centre\n/blkeaopp - EA\n" +
+                                "/krbt - Kent Ridge Bus Terminal\n/krmrt - Kent Ridge MRT\n/kv - Kent Vale\n" +
+                                "/lt13 - LT13\n/lt29 - LT29\n/museum - Museum\n" +
+                                "/hssmlopp - Opp HSSML\n/krmrtopp - Opp Kent Ridge MRT\n/nussopp - Opp NUSS\n" +
+                                "/pgp12opp - Opp PGP Hse No 12\n/uhallopp - Opp UHall\n/staffclubopp - Opp University Health Centre\n" +
+                                "/yihopp - Opp YIH\n/pgp12 - PGP Hse No 12\n/pgp1415 - PGP Hse No 14 and No 15\n" +
+                                "/pgp7 - PGP Hse No 7\n/pgp - PGPR\n/pgpt - Prince George's Park\n" +
+                                "/raffles - Raffles Hall\n/s17 - S17\n/uhall - UHall\n" +
+                                "/staffclub - University Health Centre\n/utown - University Town\n/lt13opp - Ventus (Opp LT13)\n/yih - YIH\n");
             } else { // USER HAS SELECTED BUS STOP
-                if (!text_message.contains("/")) { // invalid command
+                if (!text_message.contains("/") /* && valid from database */) { // invalid command
                     message = new SendMessage()
                             .setChatId(chat_id)
                             .setText("Please enter a valid bus stop command.");
@@ -88,7 +109,19 @@ public class NUSGoBot extends TelegramLongPollingBot {
                             .setLongitude(103.773806f);
                     destination_request_message = new SendMessage()
                             .setChatId(chat_id)
-                            .setText("Please select your destination bus stop.");
+                            .setText("Please select your destination bus stop from the list below OR by typing " +
+                                    "'/' to reveal the command menu: \n\n" +
+                                    "/as7 - AS7\n/biz2 - BIZ 2\n/bgmrt - Botanic Gardens MRT\n" +
+                                    "/bukittimahbtc2 - BTC - Oei Tiong Ham Building\n/cenlib - Central Library\n/cgh - College Green Hostel\n" +
+                                    "/com2 - COM2 (CP13)\n/comcen - Computer Centre\n/blkeaopp - EA\n" +
+                                    "/krbt - Kent Ridge Bus Terminal\n/krmrt - Kent Ridge MRT\n/kv - Kent Vale\n" +
+                                    "/lt13 - LT13\n/lt29 - LT29\n/museum - Museum\n" +
+                                    "/hssmlopp - Opp HSSML\n/krmrtopp - Opp Kent Ridge MRT\n/nussopp - Opp NUSS\n" +
+                                    "/pgp12opp - Opp PGP Hse No 12\n/uhallopp - Opp UHall\n/staffclubopp - Opp University Health Centre\n" +
+                                    "/yihopp - Opp YIH\n/pgp12 - PGP Hse No 12\n/pgp1415 - PGP Hse No 14 and No 15\n" +
+                                    "/pgp7 - PGP Hse No 7\n/pgp - PGPR\n/pgpt - Prince George's Park\n" +
+                                    "/raffles - Raffles Hall\n/s17 - S17\n/uhall - UHall\n" +
+                                    "/staffclub - University Health Centre\n/utown - University Town\n/lt13opp - Ventus (Opp LT13)\n/yih - YIH\n");
                 } else if (startSentFlag) { // select destination to get route
                     /* QUERY DATABASE FOR NAME, ADDRESS AND COORDINATES */
                     message = new SendMessage()
@@ -112,6 +145,7 @@ public class NUSGoBot extends TelegramLongPollingBot {
                     execute(venue);
                     if (selectButtonFlag && !startSentFlag) {
                         execute(destination_request_message);
+                        execute(previous_menu_message);
                         startSentFlag = true;
                     } else {
                         execute(route_message);
