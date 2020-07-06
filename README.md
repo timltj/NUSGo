@@ -26,7 +26,7 @@ You may view code for various development stages of the bot in the project direc
 
 ## Project Directories
 #### NUSGo v1.0
-Official [Prototype 1](/Prototype%201) for Orbital project submission.
+Official [Prototype 1](/NUSGo%20v1.0) for Orbital project submission.
 #### NUSGo v2.0
 Official [Prototype 2](/Prototype%201) for Orbital project submission.
 #### NUSGo v3.0
