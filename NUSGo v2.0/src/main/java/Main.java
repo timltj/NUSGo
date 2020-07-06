@@ -43,7 +43,7 @@ public class Main {
         }
         System.out.println("NUSGoBot successfully started!");
 
-        /* BUILDINGS WEB SCRAPPER */
+        // BUILDINGS WEB SCRAPPER
         /*
         WebClient client = new WebClient();
         client.getOptions().setJavaScriptEnabled(false);
