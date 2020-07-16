@@ -31,6 +31,7 @@ Official [Prototype 1](/NUSGo%20v1.0) for Orbital project submission.
 Official [Prototype 2](/NUSGo%20v2.0) for Orbital project submission.
 #### NUSGo v3.0
 Official [Prototype 3](/NUSGo%20v3.0) for Orbital project submission.
+
 Official [Prototype 3.1](/NUSGo%20v3.1)
 #### NUSGoBot
 [Practice bot](/NUSGoBot) practice development.
