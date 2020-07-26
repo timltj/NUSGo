@@ -17,8 +17,8 @@ upon query and get specific directions there.
 4. As an administrator of the system, I want to be able to feed in real time the GPS location of my user
 and the real time bus arrival timings from NUSNextBus app.
 
-## Sample bots
-Open them and send them /help command to get some information about their capabilities:
+## Official bot
+Try the NUSGo Telegram Bot at the link below!
 
 https://telegram.me/NUSGo_Practice_Bot
 
