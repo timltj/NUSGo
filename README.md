@@ -31,17 +31,17 @@ You may view code for various development stages of the bot in the project direc
 
 [NUSGo v3.0](/NUSGo%20v3.0) - Orbital Milestone 2 submission.
 
-[NUSGo v3.1](/NUSGo%20v3.0).
+[NUSGo v3.1](/NUSGo%20v3.0)
 
-[NUSGo v4.0](/NUSGo%20v4.0).
+[NUSGo v4.0](/NUSGo%20v4.0)
 
-[NUSGo v4.1](/NUSGo%20v4.1).
+[NUSGo v4.1](/NUSGo%20v4.1)
 
-[NUSGo v4.2](/NUSGo%20v4.2).
+[NUSGo v4.2](/NUSGo%20v4.2)
 
-[NUSGo v4.3](/NUSGo%20v4.3).
+[NUSGo v4.3](/NUSGo%20v4.3)
 
-[NUSGo v4.3.1](/NUSGo%20v4.3.1).
+[NUSGo v4.3.1](/NUSGo%20v4.3.1)
 
 
 ## Telegram Bot API
