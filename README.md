@@ -27,7 +27,7 @@ You may view code for various development stages of the bot in the project direc
 ## Project Directories
 [NUSGo v1.0](/NUSGo%20v1.0) - Orbital Milestone 1 submission.
 
-[NUSGo v2.0](/NUSGo%20v2.0).
+[NUSGo v2.0](/NUSGo%20v2.0)
 
 [NUSGo v3.0](/NUSGo%20v3.0) - Orbital Milestone 2 submission.
 
