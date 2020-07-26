@@ -20,21 +20,22 @@ and the real time bus arrival timings from NUSNextBus app.
 ## Sample bots
 Open them and send them /help command to get some information about their capabilities:
 
-https://telegram.me/NUSGo_Practice_Bot (Current Prototype 3.1)
+https://telegram.me/NUSGo_Practice_Bot
 
 You may view code for various development stages of the bot in the project directories below.
 
 ## Project Directories
 #### NUSGo v1.0
-Official [Prototype 1](/NUSGo%20v1.0) for Orbital project submission.
+Official [Prototype 1](/NUSGo%20v1.0) for Orbital Milestone 1 submission.
 #### NUSGo v2.0
-Official [Prototype 2](/NUSGo%20v2.0) for Orbital project submission.
+[Prototype 2](/NUSGo%20v2.0).
 #### NUSGo v3.0
-Official [Prototype 3](/NUSGo%20v3.0) for Orbital project submission.
+Official [Prototype 3](/NUSGo%20v3.0) for Orbital Milestone 2 submission.
+#### NUSGo v3.1
+[Prototype 3.1](/NUSGo%20v3.0).
+#### NUSGo v4.0
+[Prototype 4.0](/NUSGo%20v4.0).
 
-Latest developmental [Prototype 3.1](/NUSGo%20v3.1)
-#### NUSGoBot
-[Practice bot](/NUSGoBot) practice development.
 
 ## Telegram Bot API
 This project uses the Maven Telegram bot API, you can find more information through this [link](https://github.com/rubenlagus/TelegramBots).
