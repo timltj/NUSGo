@@ -37,6 +37,12 @@ You may view code for various development stages of the bot in the project direc
 
 [NUSGo v4.1](/NUSGo%20v4.1).
 
+[NUSGo v4.2](/NUSGo%20v4.2).
+
+[NUSGo v4.3](/NUSGo%20v4.3).
+
+[NUSGo v4.3.1](/NUSGo%20v4.3.1).
+
 
 ## Telegram Bot API
 This project uses the Maven Telegram bot API, you can find more information through this [link](https://github.com/rubenlagus/TelegramBots).
