@@ -25,8 +25,7 @@ https://telegram.me/NUSGo_Practice_Bot
 You may view code for various development stages of the bot in the project directories below.
 
 ## Project Directories
-[#### NUSGo v1.0](/NUSGo%20v1.0)
-Official [Prototype 1](/NUSGo%20v1.0) for Orbital Milestone 1 submission.
+[NUSGo v1.0](/NUSGo%20v1.0) - Orbital Milestone 1 submission.
 #### NUSGo v2.0
 [Prototype 2](/NUSGo%20v2.0).
 #### NUSGo v3.0
