@@ -22,7 +22,7 @@ and the real time bus arrival timings from NUSNextBus app.
 <img src="NUSGo%20Final%20Poster.png" width="600"> 
 
 ## Video Demo
-Check our our demo at this [link]().
+Check out our demo at this [link]()!
 
 ## Official Bot
 Try the NUSGo Telegram Bot at the link below!
@@ -57,6 +57,9 @@ You may view code for various development stages of the bot in the project direc
 
 ## Telegram Bot API
 This project uses the Maven Telegram bot API, you can find more information through this [link](https://github.com/rubenlagus/TelegramBots).
+
+## Bus Data Source
+Data for NUS Internal Shuttle Bus Services and Bus Stops are retrieved from the University Campus Infrastructure's official [website](https://uci.nus.edu.sg/oca/transport-logistics-carpark/getting-around-nus/).
 
 ## Tech Stack
 [IntelliJ IDEA](https://www.jetbrains.com/idea/)
