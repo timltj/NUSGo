@@ -22,7 +22,7 @@ and the real time bus arrival timings from NUSNextBus app.
 <img src="NUSGo%20Final%20Poster.png" width="600"> 
 
 ## Video Demo
-Check out our demo at this [link]()!
+Check out our video demo at this [link]()!
 
 ## Official Bot
 Try the NUSGo Telegram Bot at the link below!
