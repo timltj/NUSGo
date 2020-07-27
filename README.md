@@ -1,7 +1,7 @@
 # NUSGo
 Team Members: Tan Eu Zin, Lim Tiang Jung Timothy
 
-Project Level: Gemini
+Project Level: Apollo
 
 NUSGo is a Telegram Bot which aims to make commuting and navigating within NUS a simpler and faster process. Our bot provides students with a list of possible bus routes to choose from, by simply entering their starting location and destination through a series of commands. 
 
