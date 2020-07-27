@@ -18,7 +18,7 @@ upon query and get specific directions there.
 and the real time bus arrival timings from NUSNextBus app.
 
 ## Marketing Poster
-![](/NUSGo Final Poster.png)
+![](NUSGo%20Final%20Poster.png)
 
 ## Video Demo
 Check our our demo at this [link]().
