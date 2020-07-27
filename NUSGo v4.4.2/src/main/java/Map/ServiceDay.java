@@ -1,0 +1,56 @@
+package Map;
+
+import java.time.LocalTime;
+import java.util.ArrayList;
+
+public class ServiceDay {
+    private static final int WEEKDAY = 1;
+    private static final int SATURDAY = 2;
+    private static final int SUNDAYORPH = 3;
+    private ArrayList<ServiceTime> serviceTimeArrayList;
+    private LocalTime firstServiceTime;
+    private LocalTime lastServiceTime;
+    private int type;
+
+    public ServiceDay() {}
+
+    public ServiceDay(int type) {
+        this.type = type;
+        this.serviceTimeArrayList = new ArrayList<ServiceTime>();
+    }
+
+    // getters
+    protected ArrayList<ServiceTime> getServiceTimeArrayList() {return this.serviceTimeArrayList;}
+    public LocalTime getFirstServiceTime() {return this.firstServiceTime;}
+    public LocalTime getLastServiceTime() {return this.lastServiceTime;}
+
+
+    public void assignServiceTime(ServiceTime serviceTime) {
+        this.serviceTimeArrayList.add(serviceTime);
+    }
+
+    public void assignStartAndEndTimes() {
+        firstServiceTime = serviceTimeArrayList.get(0).getStartTime();
+        lastServiceTime = serviceTimeArrayList.get(serviceTimeArrayList.size() - 1).getEndTime();
+    }
+
+    public int checkServiceFreq(LocalTime now) {
+        this.assignStartAndEndTimes();
+        if (now.compareTo(firstServiceTime) == -1) {
+            System.out.println("firstService: " + firstServiceTime);
+            return -1;
+        } else if (now.compareTo(lastServiceTime) == 1) {
+            System.out.println("lastService: " + lastServiceTime);
+            return -1;
+        } else {
+            ServiceTime currServiceTime = serviceTimeArrayList.get(0); // get as a filler
+            for (ServiceTime st : serviceTimeArrayList) {
+                if(st.findCurrServiceTime(now)) {
+                    currServiceTime = st;
+                    break;
+                }
+            }
+            return currServiceTime.getServiceFrequency();
+        }
+    }
+}
