@@ -48,7 +48,7 @@ You may view code for various development stages of the bot in the project direc
 
 [NUSGo v4.3](/NUSGo%20v4.3)
 
-[NUSGo v4.4](/NUSGo%20v4.4)
+[NUSGo v4.4.0](/NUSGo%20v4.4.0)
 
 [NUSGo v4.4.1](/NUSGo%20v4.4.1)
 
