@@ -19,7 +19,7 @@ and the real time bus arrival timings from NUSNextBus app.
 
 ## Marketing Poster
 
-<img src="NUSGo%20Final%20Poster.png" width="100"> 
+<img src="NUSGo%20Final%20Poster.png" width="500"> 
 
 ## Video Demo
 Check our our demo at this [link]().
