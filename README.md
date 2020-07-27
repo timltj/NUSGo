@@ -18,10 +18,10 @@ upon query and get specific directions there.
 and the real time bus arrival timings from NUSNextBus app.
 
 ## Marketing Poster
-
+![NUSGo Final Poster](NUSGo Final Poster.png)
 
 ## Video Demo
-Check our our demo at this [link]
+Check our our demo at this [link]().
 
 ## Official Bot
 Try the NUSGo Telegram Bot at the link below!
